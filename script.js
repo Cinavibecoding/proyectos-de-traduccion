@@ -11,7 +11,7 @@
   var heroTitle = document.getElementById('hero-title');
 
   var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var TRANSITION_MS = 260;
+  var TRANSITION_MS = 220;
   var swapping = false;
 
   function setLang(lang){
